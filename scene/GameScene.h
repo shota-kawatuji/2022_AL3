@@ -48,6 +48,12 @@ class GameScene {
 	Audio* audio_ = nullptr;
 	DebugText* debugText_ = nullptr;
 
+	uint32_t textureHandle_ = 0;
+	Model* model_ = nullptr;
+
+	WorldTransform worldTransfrom_[20];
+	ViewProjection viewProjection_;
+
 	/// <summary>
 	/// ゲームシーン用
 	/// </summary>
